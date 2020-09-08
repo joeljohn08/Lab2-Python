@@ -27,7 +27,7 @@ def assigngrade(percentage):
 
   
 def main():
-  percentage = input("Enter your CMPSC 131 grade:")
+  percentage = input("Enter your CMPSC 131 grade: ")
   percentage = float(percentage)
   print(f"Your letter grade for CMPSC 131 is {assigngrade(percentage)}.")
 
